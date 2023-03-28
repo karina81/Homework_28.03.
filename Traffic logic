@@ -1,0 +1,15 @@
+let trafficLight = "red";
+function canDrive(trafficLightColor) {
+  if (trafficLightColor === "green") {
+    return "Machines can drive.";
+  } else {
+    return "Machines cannot drive.";
+  }
+}
+console.log("Traffic light is " + trafficLight + ". " + canDrive(trafficLight));
+trafficLight = "yellow";
+console.log("Traffic light is " + trafficLight + ". " + canDrive(trafficLight));
+trafficLight = "green";
+console.log("Traffic light is " + trafficLight + ". " + canDrive(trafficLight));
+trafficLight = "red";
+console.log("Traffic light is " + trafficLight + ". " + canDrive(trafficLight));
